@@ -45,12 +45,11 @@ Total basepairs in hap.fa: 125,000,000
 Total basepairs aligned (redundant): 28,000,000
 Total basepairs unaligned (unique): 97,000,000
 % redundant: 22.40%
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15172401.svg)](https://doi.org/10.5281/zenodo.15172401)
-
 % unique: 77.60%
 
 Related Tools
 minimap2: For generating the .paf alignment file
 
 purge_dups: For identifying and filtering redundant contigs
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15172401.svg)](https://doi.org/10.5281/zenodo.15172401)
