@@ -3,8 +3,9 @@
 from collections import defaultdict
 from intervaltree import Interval, IntervalTree
 
-# Set path to your PAF file and hap.fa file
-paf_file = "/mnt/gs21/scratch/k0017008/ragtag.mapped.purged.vs.hap.paf"
+# Set path to your PAF file and hap.paf file
+# This should be a file converted from your output file after purge_dups
+paf_file = "/path/to/your/hap.paf file"
 hap_fa_lengths = {}
 
 # Step 1: Get contig lengths from the PAF file (column 2)
