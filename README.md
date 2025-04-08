@@ -1,5 +1,7 @@
 # calculate_hap_redundancy.py
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15172401.svg)](https://doi.org/10.5281/zenodo.15172401)
+
 This script calculates **haplotype-level sequence redundancy** from a PAF file (output from tools like `minimap2`) by summing redundant basepairs aligned to a reference genome or assembly.
 
 It is useful for estimating how much of a haplotype assembly is non-unique (e.g., duplicated or collapsed), which can help with assembly curation, redundancy filtering, and genome size validation.
@@ -51,5 +53,3 @@ Related Tools
 minimap2: For generating the .paf alignment file
 
 purge_dups: For identifying and filtering redundant contigs
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15172401.svg)](https://doi.org/10.5281/zenodo.15172401)
